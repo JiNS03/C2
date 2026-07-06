@@ -139,3 +139,34 @@ S02	4s	민트색 텀블러 클로즈업 (밝음)
 S03	3s	로고 및 슬로건 (화이트 배경)
 
 최종 통합본: EW_Final_Video_10s_v01.mp4
+
+18. 최종 보완] EcoWave 10초 캠페인 스토리보드
+
+- 1 필수 필드 기반 씬별 상세 구성
+필드 :	Scene 01 (문제)	Scene 02 (솔루션)	Scene 03 (엔딩)
+씬 번호 :	Scene 01	Scene 02	Scene 03
+길이 :	3초	4초	3초
+메시지 :	플라스틱 오염의 심각성	에코웨이브 텀블러 제안	브랜드 각인 및 행동 유도
+화면 구성	어두운 바닷속에 떠다니는 플라스틱 쓰레기들 (시네마틱)	밝은 햇살 아래 놓인 깨끗한 민트색 텀블러 클로즈업	화이트 배경에 파도 로고와 슬로건 텍스트 애니메이션
+내레이션 :	"매일 쌓이는 우리의 무관심."	"이제, 변화를 선택할 시간."	"에코웨이브, 작은 실천이 만드는 큰 파도."
+사용 도구 :	gpt-image-2, sora-2
+프롬프트	Cinematic close-up of plastic waste floating in dark blue ocean water, 4k, realistic.	Minimalist mint-colored reusable tumbler, bright natural lighting, 4k, --sref [S01 URL]	Eco-friendly brand logo animation, wave icon, white background, clean text.
+파일명	 : EW_Final_Video_10s_v01.mp4
+
+- 2 추가 필수 이행 사항
+1) 제작 파이프라인 (Criteria 8)
+기획 → 에셋 생성(MJ, Runway, ElevenLabs) → 통합 편집(CapCut) → 보정 및 검수 순으로 진행.
+
+2) 도구 선택 및 비교
+최우선 기준: [품질] (브랜드 이미지 구축을 위해 고화질 MJ+Runway 조합 선택).
+도구 비교: DALL-E+Pika 조합보다 MJ+Runway가 시네마틱한 질감 표현에서 우수할 것으로 예측됨.
+
+3) 불일치 보정 절차
+색감: 모든 씬에 민트색 필터를 5% 적용하여 톤앤매너 통일.
+해상도: CapCut의 업스케일링 기능을 통해 모든 소스를 FHD(1080p)로 맞춤.
+
+4) 분량 재구성 전략
+설명적인 장면을 모두 제거하고, **[오염된 바다(어둠) vs 텀블러(밝음)]**의 시각적 대비를 극대화하여 10초 내에 임팩트 전달.
+
+5) 파일 네이밍 규칙
+[프로젝트]_[씬번호]_[종류]_[버전].[확장자] 규칙을 준수하여 재사용성 확보.
